@@ -5,16 +5,16 @@ This directory contains build profiles for Kiwi image build system and can be us
 When using this repository as a source, do not forget to add a valid sub directory name to the URL. Examples:
 
 * SLE11 templates
-  * POS_Image-JeOS6-SLE11 -> https://github.com/SUSE/manager-build-profiles#master:OSImage/POS_Image-JeOS6-SLE11
-  * POS_Image-Graphical6-SLE11 -> https://github.com/SUSE/manager-build-profiles#master:OSImage/POS_Image-Graphical6-SLE11
+  * POS_Image-JeOS6-SLE11 -> https://github.com/amaxi/suse-manager-build-profiless#master:OSImage/POS_Image-JeOS6-SLE11
+  * POS_Image-Graphical6-SLE11 -> https://github.com/amaxi/suse-manager-build-profiles#master:OSImage/POS_Image-Graphical6-SLE11
 
 * SLE12 templates
-  * POS_Image-JeOS6 -> https://github.com/SUSE/manager-build-profiles#master:OSImage/POS_Image-JeOS6
-  * POS_Image-Graphical6 -> https://github.com/SUSE/manager-build-profiles#master:OSImage/POS_Image-Graphical6
+  * POS_Image-JeOS6 -> https://github.com/amaxi/suse-manager-build-profiles#master:OSImage/POS_Image-JeOS6
+  * POS_Image-Graphical6 -> https://github.com/amaxi/suse-manager-build-profiles#master:OSImage/POS_Image-Graphical6
 
 * SLE15 templates
-  * POS_Image-JeOS7 -> https://github.com/SUSE/manager-build-profiles#master:OSImage/POS_Image-JeOS7
-  * POS_Image-Graphical7 -> https://github.com/SUSE/manager-build-profiles#master:OSImage/POS_Image-Graphical7
+  * POS_Image-JeOS7 -> https://github.com/amaxi/suse-manager-build-profiles#master:OSImage/POS_Image-JeOS7
+  * POS_Image-Graphical7 -> https://github.com/amaxi/suse-manager-build-profiles#master:OSImage/POS_Image-Graphical7
 
 
 Make sure build hosts use the same base OS version as the templates you are trying to build. SLE11 templates are meant to be build on SLE11 build hosts, SLE12 templates on SLE12 build hosts.
@@ -22,10 +22,10 @@ Make sure build hosts use the same base OS version as the templates you are tryi
 ## SLE Micro profiles
 
 * SLE Micro 5.0
-  * https://github.com/SUSE/manager-build-profiles#master:OSImage/SUSE-MicroOS50
+  * https://github.com/amaxi/suse-manager-build-profiles#master:OSImage/SUSE-MicroOS50
 
 * SLE Micro 5.1
-  * https://github.com/SUSE/manager-build-profiles#master:OSImage/SUSE-MicroOS51
+  * https://github.com/amaxi/suse-manager-build-profiles#master:OSImage/SUSE-MicroOS51
 
 SLE Micro profiles must be built on SLE15 buildhost with activation key with corresponding channels.
 When creating OS Image profile in SUMA, it is necessary to specify Kiwi option `--profile <profile>`.
